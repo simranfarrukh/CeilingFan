@@ -17,5 +17,13 @@ Once the direction has been reversed, it remains reversed as we cycle through th
 
 Run the ControlFan class to test the project.
 
+## Implementations
+
+- CordType: Interface of type of cords. Contains a pull() method.
+- Speed: Enum that inherits CordType's pull() method. Contains speed values.
+- Direction: Enum that inherits CordType's pull() method. Contains direction values.
+- Fan: Class that allows implements CordType's pull() method and contains getters and setters for Speed and Direction types.
+- ControlFan: The main class that shows the implementation.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
